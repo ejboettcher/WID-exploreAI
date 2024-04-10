@@ -1,0 +1,466 @@
+---
+title: "Exploring AI and ML"
+subtitle: "Learn, Build, Deploy"
+date: "2024"
+author: "Presented by Evelyn J. Boettcher"
+title-slide-attributes:
+    data-background-image: 'img/logos/gem_cityML_slide.png'
+    data-background-size: "100% 100% "
+    data-background-position: "0% "
+    data-background-opacity: "0.95"
+format:
+    revealjs:
+        incremental: false
+fig-cap-location: margin
+bibliography: references.bib
+
+---
+
+:::{.columns}
+::::{.column width=70%}
+
+If you want to learn more about Machine Learning and AI in Dayton, please attend a GemCity Machine Learning meetup.  
+<br>  
+
+
+### GemCity ML/AI 
+
+We meet every third Thursday at 6pm as part of GemCity Tech meetup group.
+
+<br>
+
+GemCity TECH’s <span style="font-size:2em;">mission</span> is to grow the local industry and the community by providing a centralized destination for
+technical training, workshops and providing a forum for collaborating.
+
+<br>
+
+Currently, support several special interest groups from a variety of technical disciplines.
+
+
+
+::::
+::::{.column width=26%}
+![Discord](./img/gemcity_discord_qr.png)  
+
+![MeetUp](./img/GemCity_meetup_qr.png)  
+
+
+
+
+::::
+:::
+
+---
+
+
+
+## Outline
+
+**This presentation will cover the following topics:**
+
+* Introduction to AI and machine learning (ML)
+* Supervised and unsupervised learning
+* Transfer Learning
+* Classification and classes
+* Dataset creation: We will be building a ML model using Teachable Machines
+
+### Build a Machine Learning model
+
+<br>
+<hr>
+**The learning outcomes are as follows:**
+
+* Understand the difference between AI and machine learning.
+* Explain supervised and unsupervised learning.
+* Classifier and classes
+* Importance of clean datasets and how bad data affects ML performance
+* Your own ML algorithm that you trained without any coding.  
+
+---
+
+## Artificial Intelligence (AI) 
+
+AI is more than Large Language Models (LLM)  
+<br>  
+
+
+:::{.columns}
+::::{.column width=49%}
+  
+**LLM:** Large Language Models: aka Chat GPT, Claude AI, Bard, Gemini
+
+* Type of AI program that can recognize and generate text. 
+* LLMs are trained on huge sets of data — hence **LARGE**, Costly to build 
+* LLMs are built on machine learning: specifically, a type of neural network called a transformer model.
+
+**Transformers:** 
+
+* Uses Attention models: (greatly improves speed)
+* Transformers learn the context and track relationships between sequence components
+
+::::
+::::{.column width=49%}
+
+
+**GPT:** Generative Pre-trained Transformers
+
+* GPT is neural network-based language prediction models built on the Transformer architecture. 
+* GPT models analyzes natural language queries (prompts), and predict the best response based on *their understanding* of language.
+* GPT models rely on the knowledge gained after training with hundreds of billions of parameters on massive *language* datasets.
+
+::::
+:::
+
+---
+
+## What is AI and ML?
+
+:::{.columns}
+::::{.column width=52%}
+
+### Artificial Intelligence (AI)
+
+* A field in computer science
+* AI is something that has the ability "learn" to do something without instructions.
+
+### Machine Learning (ML)
+
+* Machine learning is a field of study in artificial intelligence
+* ML uses statistical algorithms that can learn from data and generalize to unseen data (Testing/User data)
+* Perform tasks without explicit instructions.
+
+::::
+::::{.column width=47%}
+
+![@ai-ml-relation](./img/Relations-between-artificial-intelligence-machine-learning-neural-network-and-deep.png)  
+::::
+:::
+
+
+---
+
+## How do ML algorithms *learn*
+
+ML Algorithms learn via supervised or unsupervised learning.  
+<br>  
+<br>  
+
+### Supervised Learning
+Supervised learning is when you have labels for each data point.  
+<br>
+
+
+### Unsupervised Learning
+
+Unsupervised learning is when it "learns" something about the data, 
+but do not have the data truth.
+
+
+---
+
+
+### Example of Data for Supervised Learning
+
+
+| Data            |  Truth (Label)    | Data    |  Truth (Label)    | 
+| :------------------------  | :-------------   | :------------------------  | :-------------   |
+| ![](./img/cat_test2.jpg){width="250px"} | cat   | ![](./img/smores.jpg){width="250px"}    | dog   |
+
+
+<br>
+
+x 100's more Labeled images 
+
+---
+
+### Example of data for unsupervised learning
+
+
+| Data                      |  Data |   
+|:------------------------- | :------------------------- |
+| ![](./img/cat_test2.jpg){width="250px"} |  ![](./img/smores.jpg){width="250px"} | 
+
+<br>
+
+x 500's more images 
+
+
+---
+
+## Goal of unsupervised learning
+
+Find features that separate the data into groups / clusters.
+Then hope there is a small number of labeled features so that we can classify those groups.  
+
+<br>
+
+### Why Do Unsupervised
+
+Labeled data is really expensive.  Sometimes "truth" can not be obtained.  
+
+<br>
+
+### Example: atmospheric distortion correction
+
+----
+
+## Gedunken Experiment
+
+Say there is a town with two employers (A and B).  
+Predict if person works for company A or B, based on where they live.
+
+<br>
+
+First stab: See if people are clustered around their work place.
+
+So if we had a clustering algorithm we can predict where a person might work.
+
+:::{ }
+
+![](./img/townpeople.png){width=55% fig-align=center}
+
+:::
+
+
+---
+
+### K-Means
+
+K-means is the most common clustering algorithm.
+<br>
+K-means clusters, n data points (e.g. All your data) into k clusters by placing each data point to the nearest k.
+
+<br>
+
+Example: point **p** is 5 ft from $k_i$ and 10 feet from $k_j$.  K-means would then place point **p** into the
+$k_i$ group.  Once, all the points are placed into a cluster or group, the new means for each cluster ($k_i$ and $k_j$) 
+are updated.  The location for each mean cluster __k__ is calculated by finding the mean from all the points that belong to that cluster.
+
+<br>
+
+![](./img/truth_kmeans.png){fig-align="center"}
+
+---
+
+### Transfer Learning
+
+Transfer Learning can allow you to use what is learned from a large dataset to your smaller (refined) data similar to the larger model.
+
+![@transfer-learning](./img/transfer-learning.png){width=500px}
+
+* Example: ImageNet Dataset has 1.4 million images and 1000 classes.
+
+To learn more go to [TensorFlow Transfer Learning Tutorial](https://www.tensorflow.org/tutorials/images/transfer_learning)
+
+--- 
+
+## Classes, Classification and Models
+
+
+
+We are going to build a model that classifies between two (or more) classes.  
+<br>  
+
+### Classes
+
+The label or category: 
+
+  * Cat, Dog  
+
+<br>
+
+
+### Classification
+
+A category into which something is put.  
+<br>
+
+### Model
+
+Tries to predict the correct label (class) of a given input data.  
+The model is  trained using the training data, and then it is evaluated on test data.
+
+---
+
+## Classification
+
+:::{.columns}
+::::{.column width=59%}
+
+Say you are tasked to group monkeys into two classes:
+
+- **Class_1**: Biting Monkey
+- **Class_2**: Non-Biting Monkeys  
+
+<br>
+
+
+### Developing a Model
+
+* Create a rule to define: Biting and NonBiting
+* Separate your monkeys by that rule
+* Repeat until all of your monkeys can follow your rule.
+
+::::
+::::{.column width=39%}
+
+![](./img/biting_monkey.jpg)
+
+Image from [Huffington Post](https://www.huffpost.com/entry/baby-monkey-misses-mother_n_99700/amp).
+
+::::
+:::
+
+
+:::{.columns}
+::::{.column width=25%}
+
+::::
+::::{.column width=49%}
+ 
+
+| **Class_1**: Biting | **Class_2**: Non Biting |
+|:----     |:----  |
+|  card c   |  card d  |
+|  card a  | card b   |
+|  ...  |  ...  |
+ 
+::::
+::::{.column width=24%}
+
+::::
+
+:::
+
+---
+
+### Classification Model: Evaluation
+
+* What Rule did you use to determine which **class** the Monkey belongs to?
+
+* Does your model hold up?
+
+:::{.columns}
+::::{.column width=59%}
+
+![Visual](./img/bite_nonbite_monkey.png)
+
+
+- **Class_1**= Biting Monkey
+- **Class_2**= Non-Biting Monkeys
+
+
+
+::::
+::::{.column width=38%}
+
+![Rule](./img/bite_rule_node.png)
+
+::::
+:::
+
+---
+
+
+
+### Classification: Man vs Machine
+
+In this monkey example, we (human) could infer the **model** (set of rules). Software Engineering is when a human makes a rule that the machine follows.  
+
+<br>
+
+Most Machine learning classifiers, the "rules" of the **model** are unknown to us.  We only get the output of the machine assigned classes.  
+
+<br>
+
+Machine learning is when the machine creates the rules for the machine to follow.  
+
+---
+
+## Building a ML Model
+
+There are four basic steps to building a model  
+
+:::{.columns}
+
+::::{.column width=49%}
+
+
+- Train the model
+- Export the model
+- Use the model
+- Forth Step: Repeat  
+
+<br>
+
+
+ 
+### Why a forth step
+
+Your model, app etc will not work the first time. 
+::::
+::::{.column width=49%}
+
+![computer_fire](./img/computer_on_fire.png)
+::::
+
+:::
+---
+
+### Training a model to classify sounds 
+
+We are going to train a ML model to classify sounds.  
+WITHOUT any coding.
+<br>
+
+:::{.columns}
+::::{.column width=49%}
+- Google ["Teachable Machine"](https://teachablemachine.withgoogle.com/)
+  - Click **Get Started**
+  - Click **Audio Project**  (standard model)
+- Create three classes:
+  - Background
+  - Clapping
+  - Snapping
+
+::::
+::::{.column width=49%}
+
+![Teachable Machine](./img/Teachable_splashpage.png)
+
+::::
+:::
+
+---
+### Building ML with Teachable Machines
+
+
+
+## Thank you
+
+<br>
+
+
+If you want to take this to the classroom.  
+I have a No Code ML Tutorial for Elementary School Children
+
+<br>
+
+:::{.columns}
+::::{.column width=55%}
+
+<br>
+
+- Train a **model** to classify hand gestures  
+  - Learn what a classifier is
+- Use **conditional statements** to turn those classes into an emoji  
+- Build a Web application
+
+::::
+::::{.column width=43%}
+![github](./img/qrcode_github.png)
+
+::::
+:::
+
+## References

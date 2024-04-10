@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "talk.html#gemcity-mlai",
+    "href": "talk.html#gemcity-mlai",
+    "title": "Exploring AI and ML",
+    "section": "GemCity ML/AI",
+    "text": "GemCity ML/AI\n\n\nWe meet every third Thursday at 6pm and are part of GemCity Tech meetup group.\n\nGemCity TECH’s mission is to grow the local industry and the community by providing a centralized destination for technical training, workshops and providing a forum for collaborating.\n\nCurrently, support several special interest groups from a variety of technical disciplines.\n\n\n\n\nDiscord\n\n\n\n\n\nMeetUp\n\n\n\n\n\nCognative Think Tank\nDayton Dynamic Languages\nSoftware Developers\nGem City Games Developments\nNew to Tech\nMachine Learning / Artificial Intelligence (ML/AI)\nCode for Dayton"
+  },
+  {
+    "objectID": "talk.html#outline",
+    "href": "talk.html#outline",
+    "title": "Exploring AI and ML",
+    "section": "Outline",
+    "text": "Outline\nThis presentation will cover the following topics:\n\nIntroduction to AI and machine learning (ML)\nSupervised and unsupervised learning\nTransfer Learning\nClassification and classes\nDataset creation: We will be building a ML model using Teachable Machines\n\nBuild a Machine Learning model\n\n\nThe learning outcomes are as follows:\n\nUnderstand the difference between AI and machine learning.\nExplain supervised and unsupervised learning.\nClassifier and classes\nImportance of clean datasets and how bad data affects ML performance\nYour own ML algorithm that you trained without any coding."
+  },
+  {
+    "objectID": "talk.html#what-is-artifical-intellegence-ai-and-machine-learning-ml",
+    "href": "talk.html#what-is-artifical-intellegence-ai-and-machine-learning-ml",
+    "title": "Exploring AI and ML",
+    "section": "What is Artifical Intellegence (AI) and Machine Learning (ML)",
+    "text": "What is Artifical Intellegence (AI) and Machine Learning (ML)\n\n\nArtifical Inellegence (AI)\n\nA field in computer science\nAI is something that has the ability “learn” to do something without instructions.\n\nMachine Learning (ML)\n\nMachine learning is a field of study in artificial intelligence\nML uses statistical algorithms that can learn from data and generalize to unseen data (Testing/User data)\nPerform tasks without explicit instructions.\n\n\n\n\n\nVelev and Zlateva (2023)"
+  },
+  {
+    "objectID": "talk.html#what-is-artifical-intellegence-ai-and-machine-learning-ml-1",
+    "href": "talk.html#what-is-artifical-intellegence-ai-and-machine-learning-ml-1",
+    "title": "Exploring AI and ML",
+    "section": "What is Artifical Intellegence (AI) and Machine Learning (ML)",
+    "text": "What is Artifical Intellegence (AI) and Machine Learning (ML)\n\n\nArtifical Inellegence (AI)\n\nA field in computer science\nAI is something that has the ability “learn” to do something without instructions.\n\nMachine Learning (ML)\n\nMachine learning is a field of study in artificial intelligence\nML uses statistical algorithms that can learn from data and generalize to unseen data (Testing/User data)\nPerform tasks without explicit instructions.\n\n\n\n\n\nVelev and Zlateva (2023)"
+  },
+  {
+    "objectID": "talk.html#how-do-ml-algorithms-learn",
+    "href": "talk.html#how-do-ml-algorithms-learn",
+    "title": "Exploring AI and ML",
+    "section": "How do ML algorithms learn",
+    "text": "How do ML algorithms learn\nML Algorithms learn via supervised or unsupervised learning.\n\n\nSupervised Learning\nSupervised learning is when you have labels for each data point.\n\nUnsupervised Learning\nUnsupervised learning is when it “learns” something about the data, but do not have the data truth."
+  },
+  {
+    "objectID": "talk.html#gedunken-experiment",
+    "href": "talk.html#gedunken-experiment",
+    "title": "Exploring AI and ML",
+    "section": "Gedunken Experiment",
+    "text": "Gedunken Experiment\nSay there is a town with two employers (A and B).\nPredict if person works for company A or B, based on where they live.\n\nFirst stab: See if people are clustered around their work place.\nSo if we had a clustering algorithm we can predict where a person might work."
+  },
+  {
+    "objectID": "talk.html#references",
+    "href": "talk.html#references",
+    "title": "Exploring AI and ML",
+    "section": "References",
+    "text": "References\n\n\n\nGem City Tech ML/AI\n\n\n\nSarkar, Dipanjan (DJ). 2018. “A Comprehensive Hands-on Guide to Transfer Learning with Real-World Applications in Deep Learning.” Medium. November 2018. https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a.\n\n\nVelev, Dimiter, and Plamena Zlateva. 2023. “Issues of Artificial Intelligence Application in Digital Marketing.” In. https://doi.org/10.3233/FAIA230716."
+  },
+  {
+    "objectID": "talk.html#artifical-intellegence-ai-machine-learning-ml",
+    "href": "talk.html#artifical-intellegence-ai-machine-learning-ml",
+    "title": "Exploring AI and ML",
+    "section": "Artifical Intellegence (AI) &  Machine Learning (ML)",
+    "text": "Artifical Intellegence (AI) &  Machine Learning (ML)\n\n\nAI is more than Large Language Models (LLM)\n\nLLM: Large Language Models: aka Chat GPT, Claude AI, Bard, Gemmi\n\nType of AI program that can recognize and generate text.\nLLMs are trained on huge sets of data — hence LARGE, they are costly to build\nLLMs are built on machine learning: specifically, a type of neural network called a transformer model.\n\n\n\n\nTransformers:\n\nUses Attention models: (greatly improves speed)\nTransformers learn the context and track relationships between sequence components\n\nGPT: Generative Pre-trained Transformers\n\nGPT is neural network-based language prediction models built on the Transformer architecture.\nGPT models analyzes natural language queries (prompts), and predict the best possible response based on their understanding of language.\nGPT models rely on the knowledge gained after they’re trained with hundreds of billions of parameters on massive language datasets."
+  },
+  {
+    "objectID": "talk.html#what-is-ai-and-ml",
+    "href": "talk.html#what-is-ai-and-ml",
+    "title": "Exploring AI and ML",
+    "section": "What is AI and ML?",
+    "text": "What is AI and ML?\n\n\nArtificial Intelligence (AI)\n\nA field in computer science\nAI is something that has the ability “learn” to do something without instructions.\n\nMachine Learning (ML)\n\nMachine learning is a field of study in artificial intelligence\nML uses statistical algorithms that can learn from data and generalize to unseen data (Testing/User data)\nPerform tasks without explicit instructions.\n\n\n\n\n\nVelev and Zlateva (2023)"
+  },
+  {
+    "objectID": "talk.html#artifical-intellegence-ai",
+    "href": "talk.html#artifical-intellegence-ai",
+    "title": "Exploring AI and ML",
+    "section": "Artifical Intellegence (AI)",
+    "text": "Artifical Intellegence (AI)\nAI is more than Large Language Models (LLM)\n\n\n\nLLM: Large Language Models: aka Chat GPT, Claude AI, Bard, Gemmi\n\nType of AI program that can recognize and generate text.\nLLMs are trained on huge sets of data — hence LARGE, Costly to build\nLLMs are built on machine learning: specifically, a type of neural network called a transformer model.\n\nTransformers:\n\nUses Attention models: (greatly improves speed)\nTransformers learn the context and track relationships between sequence components\n\n\nGPT: Generative Pre-trained Transformers\n\nGPT is neural network-based language prediction models built on the Transformer architecture.\nGPT models analyzes natural language queries (prompts), and predict the best response based on their understanding of language.\nGPT models rely on the knowledge gained after training with hundreds of billions of parameters on massive language datasets."
+  },
+  {
+    "objectID": "talk.html#artifical-intelligence-ai",
+    "href": "talk.html#artifical-intelligence-ai",
+    "title": "Exploring AI and ML",
+    "section": "Artifical Intelligence (AI)",
+    "text": "Artifical Intelligence (AI)\nAI is more than Large Language Models (LLM)\n\n\n\nLLM: Large Language Models: aka Chat GPT, Claude AI, Bard, Gemmi\n\nType of AI program that can recognize and generate text.\nLLMs are trained on huge sets of data — hence LARGE, Costly to build\nLLMs are built on machine learning: specifically, a type of neural network called a transformer model.\n\nTransformers:\n\nUses Attention models: (greatly improves speed)\nTransformers learn the context and track relationships between sequence components\n\n\nGPT: Generative Pre-trained Transformers\n\nGPT is neural network-based language prediction models built on the Transformer architecture.\nGPT models analyzes natural language queries (prompts), and predict the best response based on their understanding of language.\nGPT models rely on the knowledge gained after training with hundreds of billions of parameters on massive language datasets."
+  },
+  {
+    "objectID": "talk.html#goal-of-unsupervised-learning",
+    "href": "talk.html#goal-of-unsupervised-learning",
+    "title": "Exploring AI and ML",
+    "section": "Goal of unsupervised learning",
+    "text": "Goal of unsupervised learning\nFind features that separate the data into groups / clusters. Then hope there is a small number of labeled features so that we can classify those groups.\n\nWhy Do Unsupervised\nLabeled data is really expensive. Sometimes “truth” can not be obtained.\n\nExample: atmospheric distortion correction"
+  },
+  {
+    "objectID": "talk.html#classes-classification-and-models",
+    "href": "talk.html#classes-classification-and-models",
+    "title": "Exploring AI and ML",
+    "section": "Classes, Classification and Models",
+    "text": "Classes, Classification and Models\nWe are going to build a model that classifies between two (or more) classes.\n\nClasses\nThe label or category:\n\nCat, Dog\n\n\nClassification\nA category into which something is put.\n\nModel\nTries to predict the correct label (class) of a given input data.\nThe model is trained using the training data, and then it is evaluated on test data."
+  },
+  {
+    "objectID": "talk.html#classification-1",
+    "href": "talk.html#classification-1",
+    "title": "Exploring AI and ML",
+    "section": "Classification",
+    "text": "Classification\n\n\nSay you are tasked to group monkeys into two classes:\n\nClass_1: Biting Monkey\nClass_2: Non-Biting Monkeys\n\n\nDeveloping a Model\n\nCreate a rule to define: Biting and NonBiting\nSeparate your monkeys by that rule\nRepeat until all of your monkeys can follow your rule.\n\n\n\nImage from Huffington Post.\n\n\n\n\n\n\n\n\n\nClass_1: Biting\nClass_2: Non Biting\n\n\n\n\ncard c\ncard d\n\n\ncard a\ncard b\n\n\n…\n…"
+  },
+  {
+    "objectID": "talk.html#building-a-ml-model",
+    "href": "talk.html#building-a-ml-model",
+    "title": "Exploring AI and ML",
+    "section": "Building a ML Model",
+    "text": "Building a ML Model\nThere are four basic steps to building a model\n\n\n\nTrain the model\nExport the model\nUse the model\nForth Step: Repeat\n\n\nWhy a forth step\nYour model, app etc will not work the first time.\n\n\n\n\ncomputer_fire"
+  },
+  {
+    "objectID": "talk.html#thank-you",
+    "href": "talk.html#thank-you",
+    "title": "Exploring AI and ML",
+    "section": "Thank you",
+    "text": "Thank you\n\nIf you want to take this to the classroom.\nI have a No Code ML Tutorial for Elementary School Children\n\n\n\n\n\nTrain a model to classify hand gestures\n\nLearn what a classifier is\n\nUse conditional statements to turn those classes into an emoji\n\nBuild a Web application\n\n\n\n\n\ngithub"
+  },
+  {
+    "objectID": "talk.html#artificial-intelligence-ai",
+    "href": "talk.html#artificial-intelligence-ai",
+    "title": "Exploring AI and ML",
+    "section": "Artificial Intelligence (AI)",
+    "text": "Artificial Intelligence (AI)\nAI is more than Large Language Models (LLM)\n\n\n\nLLM: Large Language Models: aka Chat GPT, Claude AI, Bard, Gemini\n\nType of AI program that can recognize and generate text.\nLLMs are trained on huge sets of data — hence LARGE, Costly to build\nLLMs are built on machine learning: specifically, a type of neural network called a transformer model.\n\nTransformers:\n\nUses Attention models: (greatly improves speed)\nTransformers learn the context and track relationships between sequence components\n\n\nGPT: Generative Pre-trained Transformers\n\nGPT is neural network-based language prediction models built on the Transformer architecture.\nGPT models analyzes natural language queries (prompts), and predict the best response based on their understanding of language.\nGPT models rely on the knowledge gained after training with hundreds of billions of parameters on massive language datasets."
+  }
+]
