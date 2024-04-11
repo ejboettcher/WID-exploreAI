@@ -117,5 +117,12 @@
     "title": "Exploring AI and ML",
     "section": "Artificial Intelligence (AI)",
     "text": "Artificial Intelligence (AI)\nAI is more than Large Language Models (LLM)\n\n\n\nLLM: Large Language Models: aka Chat GPT, Claude AI, Bard, Gemini\n\nType of AI program that can recognize and generate text.\nLLMs are trained on huge sets of data — hence LARGE, Costly to build\nLLMs are built on machine learning: specifically, a type of neural network called a transformer model.\n\nTransformers:\n\nUses Attention models: (greatly improves speed)\nTransformers learn the context and track relationships between sequence components\n\n\nGPT: Generative Pre-trained Transformers\n\nGPT is neural network-based language prediction models built on the Transformer architecture.\nGPT models analyzes natural language queries (prompts), and predict the best response based on their understanding of language.\nGPT models rely on the knowledge gained after training with hundreds of billions of parameters on massive language datasets."
+  },
+  {
+    "objectID": "talk.html#disclaimer",
+    "href": "talk.html#disclaimer",
+    "title": "Exploring AI and ML",
+    "section": "Disclaimer",
+    "text": "Disclaimer\n \nThe views expressed in this talk are those of the author\nand do not necessarily reflect the official policy or position of the\n\nUnited States Government,\nDepartment of Defense,\nUnited States Air Force,\nAir Force Research Lab, or\nAir University."
   }
 ]

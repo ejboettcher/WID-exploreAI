@@ -16,6 +16,23 @@ bibliography: references.bib
 
 ---
 
+## Disclaimer
+
+<br>
+<br>
+
+The views expressed in this talk are those of the author  
+and do not necessarily reflect the official policy or position of the  
+
+
+* United States Government, 
+* Department of Defense, 
+* United States Air Force, 
+* Air Force Research Lab, or
+* Air University.
+
+---
+
 :::{.columns}
 ::::{.column width=70%}
 
@@ -25,9 +42,11 @@ If you want to learn more about Machine Learning and AI in Dayton, please attend
 
 ### GemCity ML/AI 
 
-We meet every third Thursday at 6pm as part of GemCity Tech meetup group.
+We meet every third Thursday at 6pm as part of GemCity Tech meetup group.  
 
 <br>
+
+#### GemCity.TECH
 
 GemCity TECH’s <span style="font-size:2em;">mission</span> is to grow the local industry and the community by providing a centralized destination for
 technical training, workshops and providing a forum for collaborating.
